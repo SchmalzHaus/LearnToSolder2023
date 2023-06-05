@@ -1,0 +1,13 @@
+LearnToSolder 2018 Notes file
+
+* Use PIC12F1572-I/SN microcontroller (8-pin SOIC SMT part)
+* Use 2 push button switches as input
+* Can push button switches do wakeup? Or is a SPDT slide switch needed? Looks like the two push buttons can be used to wake up the processor.
+* How many LEDs can be chaliplexed? Wikipedia says up to 12 with 4 I/Os.
+* Can we use RGB leds? (four pins)
+  * Problem - their pins are very close together
+* How about 8 LEDs (two each red, green, yellow, blue)?
+* Need to add pads for programming/debugging - use 3D printed jig with pogo pins? How about 'snap-on' or 'clip on' to edge of board?
+
+* What is best maximum board size?
+  Seeed will do 100mm x 100mm, qt 10 for $4.41. But if qty goes up, price goes up. Order lots of 10s? Does that just increase shipping?
