@@ -8051,31 +8051,31 @@ Standard schematic elements and footprints for 5mm, 3mm, 1206, and 0603 sized LE
 <library name="CH32V003">
 <packages>
 <package name="QFN20" urn="urn:adsk.eagle:footprint:6240191/1" locally_modified="yes">
-<wire x1="-2" y1="2" x2="2" y2="2" width="0.127" layer="21"/>
-<wire x1="2" y1="2" x2="2" y2="-2" width="0.127" layer="21"/>
-<wire x1="2" y1="-2" x2="-2" y2="-2" width="0.127" layer="21"/>
-<wire x1="-2" y1="-2" x2="-2" y2="2" width="0.127" layer="21"/>
+<wire x1="-1.5" y1="1.5" x2="1.5" y2="1.5" width="0.127" layer="21"/>
+<wire x1="1.5" y1="1.5" x2="1.5" y2="-1.5" width="0.127" layer="21"/>
+<wire x1="1.5" y1="-1.5" x2="-1.5" y2="-1.5" width="0.127" layer="21"/>
+<wire x1="-1.5" y1="-1.5" x2="-1.5" y2="1.5" width="0.127" layer="21"/>
 <circle x="-2.5" y="1.7" radius="0.2236" width="0.127" layer="21"/>
-<smd name="1" x="-2" y="1" dx="0.75" dy="0.3" layer="1"/>
-<smd name="2" x="-2" y="0.5" dx="0.75" dy="0.3" layer="1"/>
-<smd name="3" x="-2" y="0" dx="0.75" dy="0.3" layer="1"/>
-<smd name="4" x="-2" y="-0.5" dx="0.75" dy="0.3" layer="1"/>
-<smd name="5" x="-2" y="-1" dx="0.75" dy="0.3" layer="1"/>
-<smd name="6" x="-1" y="-2" dx="0.75" dy="0.3" layer="1" rot="R90"/>
-<smd name="7" x="-0.5" y="-2" dx="0.75" dy="0.3" layer="1" rot="R90"/>
-<smd name="8" x="0" y="-2" dx="0.75" dy="0.3" layer="1" rot="R90"/>
-<smd name="9" x="0.5" y="-2" dx="0.75" dy="0.3" layer="1" rot="R90"/>
-<smd name="10" x="1" y="-2" dx="0.75" dy="0.3" layer="1" rot="R90"/>
-<smd name="11" x="2" y="-1" dx="0.75" dy="0.3" layer="1" rot="R180"/>
-<smd name="12" x="2" y="-0.5" dx="0.75" dy="0.3" layer="1" rot="R180"/>
-<smd name="13" x="2" y="0" dx="0.75" dy="0.3" layer="1" rot="R180"/>
-<smd name="14" x="2" y="0.5" dx="0.75" dy="0.3" layer="1" rot="R180"/>
-<smd name="15" x="2" y="1" dx="0.75" dy="0.3" layer="1" rot="R180"/>
-<smd name="16" x="1" y="2" dx="0.75" dy="0.3" layer="1" rot="R270"/>
-<smd name="17" x="0.5" y="2" dx="0.75" dy="0.3" layer="1" rot="R270"/>
-<smd name="18" x="0" y="2" dx="0.75" dy="0.3" layer="1" rot="R270"/>
-<smd name="19" x="-0.5" y="2" dx="0.75" dy="0.3" layer="1" rot="R270"/>
-<smd name="20" x="-1" y="2" dx="0.75" dy="0.3" layer="1" rot="R270"/>
+<smd name="1" x="-1.5" y="0.8" dx="0.4" dy="0.2" layer="1"/>
+<smd name="2" x="-1.5" y="0.4" dx="0.4" dy="0.2" layer="1"/>
+<smd name="3" x="-1.5" y="0" dx="0.4" dy="0.2" layer="1"/>
+<smd name="4" x="-1.5" y="-0.4" dx="0.4" dy="0.2" layer="1"/>
+<smd name="5" x="-1.5" y="-0.8" dx="0.4" dy="0.2" layer="1"/>
+<smd name="6" x="-0.8" y="-1.5" dx="0.4" dy="0.2" layer="1" rot="R90"/>
+<smd name="7" x="-0.4" y="-1.5" dx="0.4" dy="0.2" layer="1" rot="R90"/>
+<smd name="8" x="0" y="-1.5" dx="0.4" dy="0.2" layer="1" rot="R90"/>
+<smd name="9" x="0.4" y="-1.5" dx="0.4" dy="0.2" layer="1" rot="R90"/>
+<smd name="10" x="0.8" y="-1.5" dx="0.4" dy="0.2" layer="1" rot="R90"/>
+<smd name="11" x="1.5" y="-0.8" dx="0.4" dy="0.2" layer="1" rot="R180"/>
+<smd name="12" x="1.5" y="-0.4" dx="0.4" dy="0.2" layer="1" rot="R180"/>
+<smd name="13" x="1.5" y="0" dx="0.4" dy="0.2" layer="1" rot="R180"/>
+<smd name="14" x="1.5" y="0.4" dx="0.4" dy="0.2" layer="1" rot="R180"/>
+<smd name="15" x="1.5" y="0.8" dx="0.4" dy="0.2" layer="1" rot="R180"/>
+<smd name="16" x="0.8" y="1.5" dx="0.4" dy="0.2" layer="1" rot="R270"/>
+<smd name="17" x="0.4" y="1.5" dx="0.4" dy="0.2" layer="1" rot="R270"/>
+<smd name="18" x="0" y="1.5" dx="0.4" dy="0.2" layer="1" rot="R270"/>
+<smd name="19" x="-0.4" y="1.5" dx="0.4" dy="0.2" layer="1" rot="R270"/>
+<smd name="20" x="-0.8" y="1.5" dx="0.4" dy="0.2" layer="1" rot="R270"/>
 <text x="-2.6" y="-4.1" size="1.27" layer="25" font="vector">&gt;NAME</text>
 <text x="-2.5" y="-5.8" size="1.27" layer="25" font="vector">&gt;VALUE</text>
 <rectangle x1="-1.3" y1="-1.3" x2="1.3" y2="1.3" layer="29"/>
@@ -8083,7 +8083,7 @@ Standard schematic elements and footprints for 5mm, 3mm, 1206, and 0603 sized LE
 <rectangle x1="0.4" y1="0.4" x2="1.2" y2="1.2" layer="31"/>
 <rectangle x1="0.4" y1="-1.2" x2="1.2" y2="-0.4" layer="31"/>
 <rectangle x1="-1.2" y1="-1.2" x2="-0.4" y2="-0.4" layer="31"/>
-<smd name="P0" x="0" y="0" dx="2.5" dy="2.5" layer="1"/>
+<smd name="P0" x="0" y="0" dx="1.7" dy="1.7" layer="1"/>
 </package>
 </packages>
 <symbols>
